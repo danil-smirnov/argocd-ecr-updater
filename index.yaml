@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   argocd-ecr-updater:
   - apiVersion: v2
+    created: "2022-05-26T11:05:57.959948352Z"
+    description: ArgoCD ECR Repository Token Refresher
+    digest: 0fcc8562225376dda8f9d6ef45191218c8aa72749e4cbec5b9be44558ae17254
+    name: argocd-ecr-updater
+    urls:
+    - https://github.com/danil-smirnov/argocd-ecr-updater/releases/download/argocd-ecr-updater-0.0.2/argocd-ecr-updater-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     created: "2022-05-26T11:01:47.793130104Z"
     description: ArgoCD ECR Repository Token Refresher
     digest: 77da3e52aed59d46d606fee4bc1db77b6c393534cc74e65df9577a820cc890f9
@@ -9,4 +17,4 @@ entries:
     urls:
     - https://github.com/danil-smirnov/argocd-ecr-updater/releases/download/argocd-ecr-updater-0.0.1/argocd-ecr-updater-0.0.1.tgz
     version: 0.0.1
-generated: "2022-05-26T11:01:47.793145604Z"
+generated: "2022-05-26T11:05:57.959964052Z"
