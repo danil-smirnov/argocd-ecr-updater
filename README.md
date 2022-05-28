@@ -2,9 +2,9 @@
 
 ECR currently requires token authentication.
 
-ArgoCD supports username and password authentication for helm repos but does not have native functionality to refresh tokens
+ArgoCD supports username and password authentication for helm repos but does not have native functionality to refresh tokens.
 
-This image regenerates ECR tokens and updates an ArgoCD manifest with the updated token
+This image regenerates ECR tokens and updates an ArgoCD manifest with the updated token.
 
 See the following for more info
 * https://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_on_EKS.html
@@ -43,4 +43,9 @@ stringData:
 ## AWS Authentication
 Pod-iam is the preferred method, which can be set via the serviceAccount annotations.
 
-Otherwise (not recommended) aws access keys can be set via volume mounts, environment variables, or external secret refs
+Otherwise (not recommended) aws access keys can be set via volume mounts, environment variables, or external secret refs.
+
+## Helm chart
+
+See\
+https://danil-smirnov.github.io/argocd-ecr-updater/
